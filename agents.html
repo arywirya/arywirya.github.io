@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPS</title>
+    <link rel="stylesheet" href="./../CSS/component.css">
+    <script src="./../jquery-3.5.1.min.js"></script>
+    <script src="./../JS/code.js"></script>
+</head>
+<body>
+    <div class="up-w">
+        <div class="header">
+            <div class="logo"><a href="./../HTML/home.html"><img src="./../image/logo.png" alt=""></a></div>
+        </div>
+        <div class="navbar">
+            <div class="menu-btn" onclick="showMenu()">
+                <div class="menu">
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                </div>
+            </div>
+            <div class="navbar-nav" id="navbar-nav">
+                <a href="./../HTML/home.html"><div>HOME</div></a>
+                <a href="./../HTML/maps.html"><div>MAPS</div></a>
+                <a href="./../HTML/agents.html"><div>AGENTS</div></a>
+                <a href="./../HTML/systemRequirement.html"><div>SYSTEM REQUIREMENTS</div></a>
+                <a href="./../HTML/preRegister.html"><div>PRE-REGISTER</div></a>
+            </div>
+        </div>
+    </div>
+    <div class="content -agent">
+        <div class="agents">
+            <h1>Agents</h1>
+            <div>
+                <input type="button" class="m-buttonL" onclick="changeSlides('previous')" value="<">
+                <div class="slider">
+                    <div class="active x">
+                        <div class="character-info">
+                            <h1>Texas</h1>
+                            <h4>Fighter</h4>
+                            <p>
+                               Texas is a Penguin Logistics staff member who is extraordinarily skilled in single combat. She was sent to Rhodes Island as a liaison, where she assists with a variety of operations.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_102_texas_2.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Meteorite</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Formerly a member of Firewatch's group, she is now a freelance mercenary. Other details of her history are unknown.
+                                Now serving as a sniper Operator for Rhodes Island, she uses the bowgun in her hands to exert lethality from afar.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/Arknights-Meteorite.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Exusiai</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Exusiai is a citizen of Laterano and as such, is entitled to the privileges listed in Clauses 1-13 of the Laterano Constitution. She is an employee of Penguin Logistics who specializes in covert communication, armed escort, and other undercover activities. We suspect she is a Messenger. While contracted with Penguin Logistics, she serves as a liaison to Rhodes Island, assisting us with our operations.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/Arknights-Exusiai.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Firewatch</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Firewatch comes from unknown origins. She fought for many years on the border between Kazimierz and Ursus. It is suspected that she was a guerrilla during this time. She shows deep experience in asymmetric operations like ambushes, sniping, unconventional tactics, and mobile tactics.
+                                She currently works as part of the Rhodes Island sniper group to provide protection services.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_158_milu_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Skadi</h1>
+                            <h4>Fighter</h4>
+                            <p>
+                                Skadi is a bounty hunter, currently employed by Rhodes Island. She has shown impressive combat prowess in the past, defeating large creatures, eliminating difficult targets, fighting crucial battles, and winning entire wars. She is very experienced in combat, but her history prior to becoming a bounty hunter is unclear.
+                                She is now an Operator for a Rhodes Island assault team, and also executes solo missions.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_263_skadi_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Mudrock</h1>
+                            <h4>Defender</h4>
+                            <p>
+                                Sarkaz mercenary Mudrock, formerly a part of the Reunion Movement, led her team far from Ursus after disagreements with the organization. She had no involvement with Reunion whatsoever during the incidents in Chernobog and Lungmen. Searching for a foothold to establish, Mudrock took her team towards Leithania. After taking in a great number of Leithanien Infected there, Mudrock became a highly esteemed leader, and her team came to be known as the "Mudrock Squad." Despite Mudrock's multiple attempts to avoid conflict with other powers, her side was nevertheless drawn into constant disputes. So as to prevent any further meaningless sacrifice, Mudrock chose to head for Kazdel. She came into contact with elite operator Logos within Kazdel's borders, and left with the latter for Rhodes Island.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_311_mudrok_2.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Surtr</h1>
+                            <h4>Fighter</h4>
+                            <p>
+                                Surtr is a mysterious Sarkaz girl who suffers from amnesia, perhaps due to her Oripathy. Her condition is rarely seen even among Infected. She is currently undergoing treatment at Rhodes Island.
+                                During testing, Surtr displayed an inexplicably high combat prowess, and was quickly drafted as a combat operator.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_350_surtr_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Blemishine</h1>
+                            <h4>Defender</h4>
+                            <p>
+                                Maria Nearl (real name), a young knight from Kazimierz and younger sister to Operator Nearl, has experience with knight sports and has demonstrated excellence in combat across a variety of tests. She now serves as a Defender Operator alongside Operator Nearl, as per her wishes.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_423_blemsh_1_0.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>SilverAsh</h1>
+                            <h4>Fighter</h4>
+                            <p>
+                                SilverAsh is a Kjerag warlord, chairman of the Karlan Commercial Co., and is current Chief of the Silverash Family. He has unique views on economics, trade, international politics, diplomacy, and strategic planning.
+                                He provides strategic support for some Rhodes Island operations.
+                                In view of the fact that his true purposes are unknown and he doesn't have the most cooperative attitude, it is advised that we maintain a conservative attitude in order to minimize risks when working with him.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_172_svrash_2.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Platinum</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Platinum was previously an assassin for the Kazimierz Armorless Union. The rest of her background is unknown. She has demonstrated considerable talent and special tactical accomplishments in high-mobility operations, clearance, and urban warfare.
+                                Under the leadership of Dr. Kal'tsit, she is a Sniper Operator for Rhodes Island.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_204_platnm_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Adnachiel</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Adnachiel is a citizen of Laterano and enjoys rights one through thirteen afforded to all citizens of Laterano. Before his arrival at Rhodes Island, he worked as a freelancer. He received excellent results on a battery of tests and was assigned to Rhodes Island Op Reserve Team A4.
+                                He has demonstrated great potential in the areas of rapid response, marksmanship, and support operations.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_211_adnach_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Executor</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Executor is a citizen of Laterano, serving as an executor of the Laterano Notarial Hall, responsible for applying Rights of the Laterano Citizen numbered One through Thirteen. He is well versed in many languages and legal frameworks.
+                                Executor has been contracted to Rhodes Island, where he executes functions related to the rights of Laterano citizens.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_279_excu_1_0.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Ambriel</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Ambriel is a citizen of Laterano. After many tests, she was allowed to join Rhodes Island, where her skills in ambushing and long-range sniping helped her perform well in asymmetric operations.
+                                She now serves in the Rhodes Island sniper team, providing long-range support.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_302_glaze_1_0.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Glaucus</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Glaucus was born in the Ægir Region, but left at an early age to wander about. By chance, she happened to join Rhodes Island and is now a Raythean cutting-edge weapon tester.
+                                In addition to performing research on cutting-edge weapon modification, Glaucus also carries out assaults on air missions when required.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_326_glacus_1_0.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>W</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                W, Sarkaz mercenary leader. W’s squad, having been involved in Kazdel’s lengthy civil war, is infamous for their brutal and efficient combat methods. W clashed with Rhodes Island during the Chernobog incident, but after defecting from Reunion for unknown reasons, signed a strategic cooperation agreement with Rhodes Island after negotiating with Dr. Kal’tsit in person.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_1504_cqbw_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Matterhorn</h1>
+                            <h4>Defender</h4>
+                            <p>
+                                A member of the Karlan Trade Co. LTD born in Kjerag. He is part of the cooperation agreement between the Karlan Commercial Co. and Rhodes Island, but he also helps carry out missions for the latter as well.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_199_yak_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Rosmontis</h1>
+                            <h4>Shooter</h4>
+                            <p>
+                                Rhodes Island Elite Operator Rosmontis possesses a high aptitude for a rare form of Originium Arts particularly adept at confronting large creatures, destroying hard objectives, immobilizing facilities under emergency, and putting a stop to small-scale skirmishes. She has been shown to possess a solid control of the battlefield and considerable tactical value in assault, positional, and annihilation scenarios. Under Kal'tsit's assignment, she is currently active as a core annihilation specialist.
+                                All other files pertaining to Rosmontis have been moved to the high clearance database.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_391_rosmon_1.png">
+                    </div>
+                    <div class="x">
+                        <div class="character-info">
+                            <h1>Nian</h1>
+                            <h4>Fighter</h4>
+                            <p>
+                                Nian, unemployed, is familiar with all kinds of metal craftsmanship and exhibits a profound knowledge in metallurgy that is inconsistent with her background. She is currently staying in Rhodes Island as a visitor, occasionally advising on Rhodes Island's metalworking projects. She claims to be skilled in audio-visual entertainment, often providing products that are not received too well by Operators.
+                            </p>
+                        </div>
+                        <img src="./../image/agent/char_2014_nian_1_0.png">
+                    </div>                    
+                </div>
+                <input type="button" class="m-buttonR" onclick="changeSlides('next')" value=">">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy-right">
+            ©2021 by Inc. LaVorant.
+        </div>
+        <div class="contact">
+            <a href=""><img src="./../image/instagram.png" alt=""></a>
+            <a href=""><img src="./../image/facebook.png" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>

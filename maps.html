@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPS</title>
+    <link rel="stylesheet" href="./../CSS/component.css">
+    <script src="./../jquery-3.5.1.min.js"></script>
+    <script src="./../JS/code.js"></script>
+</head>
+<body>
+    <div class="up-w">
+        <div class="header">
+            <div class="logo"><a href="./../HTML/home.html"><img src="./../image/logo.png" alt=""></a></div>
+        </div>
+        <div class="navbar">
+            <div class="menu-btn" onclick="showMenu()">
+                <div class="menu">
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                </div>
+            </div>
+            <div class="navbar-nav" id="navbar-nav">
+                <a href="./../HTML/home.html"><div>HOME</div></a>
+                <a href="./../HTML/maps.html"><div>MAPS</div></a>
+                <a href="./../HTML/agents.html"><div>AGENTS</div></a>
+                <a href="./../HTML/systemRequirement.html"><div>SYSTEM REQUIREMENTS</div></a>
+                <a href="./../HTML/preRegister.html"><div>PRE-REGISTER</div></a>
+            </div>
+        </div>
+    </div>
+    <div class="content -maps">
+        <div class="maps">
+            <h1>MAPS</h1>
+            <div>
+                <input type="button" class="m-buttonL" onclick="changeSlides('previous')" value="<">
+                <div class="slider">
+                    <div class="active x">
+                        <div class="maps-info">
+                            <h1>Ethan</h1>
+                            <p>
+                                Ehan is a residential area that has been abandoned. The characteristics of this place are the narrow fighting places and the many hiding places on the roof or in the residents' buildings. Use the uniqueness of this building to determine your strategy to defeat the enemy.
+                            </p>
+                        </div>
+                        <img src="./../image/maps/map 1.png">
+                    </div>
+                    <div class="x">
+                        <div class="maps-info">
+                            <h1>C-City</h1>
+                            <p>
+                                C-City is a developed city where many skyscrapers and automated vehicles. Use your tools to take advantage of the C-City layout.
+                            </p>
+                        </div>
+                        <img src="./../image/maps/map 2.jpg">
+                    </div>
+                    <div class="x">
+                        <div class="maps-info">
+                            <h1>Ani Island</h1>
+                            <p>
+                                Ani Island is a small isolated island with many mountains and there is a legendary weapon in it. On this island a lot of residential housing that is no longer in use, a lot of weapons and food supplies around it. Use this thing to survive.
+                            </p>
+                        </div>
+                        <img src="./../image/maps/map 3.jpg">
+                    </div>
+                    <div class="x">
+                        <div class="maps-info">
+                            <h1>Facility</h1>
+                            <p>
+                                This facility is often used for biological weapons experiments so there are a lot of bio weapons in this place. In this facility there is also a space to set the path of this place, use it to control the movement of the enemy.
+                            </p>
+                        </div>
+                        <img src="./../image/maps/map 4.jpg">
+                    </div>
+                    <div class="x">
+                        <div class="maps-info">
+                            <h1>Unlimited Blade Works</h1>
+                            <p>
+                                Unlimeted marble is an artificial place in which there are unlimited weapons. Everyone in it can use unlimited weapons. Then every minute that place gives a different buff for each player.
+                            </p>
+                        </div>
+                        <img src="./../image/maps/map 5.png">
+                    </div>
+                </div>
+                <input type="button" class="m-buttonR" onclick="changeSlides('next')" value=">">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy-right">
+            ©2021 by Inc. LaVorant.
+        </div>
+        <div class="contact">
+            <a href=""><img src="./../image/instagram.png" alt=""></a>
+            <a href=""><img src="./../image/facebook.png" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>
