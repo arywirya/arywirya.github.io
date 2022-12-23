@@ -1,0 +1,978 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* home */
+
+.up-w{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    height: 80px;
+    border: 0px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+.header div img{
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rectangle{
+    margin: 2px;
+    width: 30px;
+    height: 10px;
+    background-color: white;
+}
+
+
+.navbar{
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    flex: wrap;
+    background-color: black;
+}
+
+.navbar-nav{
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.navbar-nav a div{
+    font-size: 15px;
+}
+
+.navbar-nav div{
+    display: flex;
+    padding: 10px 40px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav .login{
+    padding: 10px 25px;
+    border: 0px;
+}
+
+.navbar-nav .logo img{
+    height: 100px;
+}
+.navbar-nav .login img{
+    height: 50px;
+}
+
+.content{
+    height: 300vh;
+    background-image: url(./../image/36-360036_cyber-background-hd-cyberspace-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content .upper{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./../image/Background.png);
+}
+
+.upper .description{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.upper .logo img{
+    height: 90px;
+}
+
+.upper .button{
+    margin-top: 20px;
+}
+
+.upper .button button{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 15px 80px;
+    cursor: pointer;
+    border: 2px solid rgb(231, 91, 91);
+    outline: none;
+}
+
+.center{
+    margin-top: 100px;
+    padding: 50px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.center .left{
+    padding: 50px 50px;
+    flex-basis: 50%;
+    color: white;
+}
+
+.center .left .c-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.center .left .c-description{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.center .right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.center .right img{
+    width: 300px;
+}
+
+.agent{
+    /* padding: 50px; */
+    margin-top: 100px;
+    height: 50vh;
+    padding: 20px 100px;
+    background-image: url(./../image/agent\ home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.agent .a-content .title{
+    font-size: 80px;
+}
+
+.agent .a-content .description{
+    max-width: 350px;
+    font-size: 20px;
+}
+
+.common-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 5px;
+    cursor: pointer;
+    background-color: rgb(204, 69, 69);
+    border: 2px solid rgb(204, 69, 69);
+}
+
+.map{
+    padding: 50px 0px;
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(./../image/maps\ hom\ 2.jpg);
+    background-position: center;
+    align-items: center;
+}
+
+.map .left{
+    flex-basis: 50%;
+    background-size: cover;
+}
+
+.map .right{
+    padding: 100px;
+    flex-basis: 50%;
+}
+
+.map .left img{
+    margin: 50px;
+    height: 250px;
+}
+
+.map-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.map-description{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(161, 161, 161);
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .copy-right{
+    color: whitesmoke;
+    font-size: 20px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .contact{
+    flex-basis: 50%;
+    background-color: transparent;
+}
+
+.footer .contact a{
+    margin-right: 5px;
+}
+
+.footer .contact img{
+    height: 50px;
+}
+
+/* MAPS */
+.-maps{
+    height: 100vh;
+}
+
+.maps{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps div{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps h1{
+    margin: 30px;
+    display:flex;
+    align-items:flex-start;
+    top: 60px;
+    left: 60px;
+    color: white;
+}
+
+.maps div .slider{
+    width: 100%;
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.maps div .slider .x{
+    display: none;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps div .slider .x img{
+    margin: 0px 30px;
+    width: 60%;
+}
+
+.maps div .slider .x .maps-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 450px;
+}
+
+.maps div .slider .x .maps-info h1{
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.maps div .slider .x .maps-info p{
+    font-size: 17px;
+    width: 100%;
+}
+
+.maps div .slider .x.active{
+    width: 100%;
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-buttonL{
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.m-buttonR{
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+/* Agents */
+.-agent{
+    height: 160vh;
+}
+
+
+.agents{
+    background-image: url(./../image/Background\ character\ 1.jpg);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agents div{
+    height: 100%;
+    width: 100%;
+    margin: 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.agents h1{
+    font-size: 100px;
+    margin: 30px 0px 0px 30px;
+    display:flex;
+    align-items:flex-start;
+    color: white;
+}
+
+.agents div  div.slider{
+    width: 80%;
+}
+
+.agents div  div.slider div{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.agents div  div.slider div img{
+    width: 60%;
+}
+
+.agents div  div.slider div .character-info{
+    width: 40%;
+    max-width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    background-color:transparent;
+}
+
+.agents div  div.slider div .character-info h1{
+    color: black;
+    font-size: 100px;
+}
+
+.agents div  div.slider div .character-info h4{
+    color: rgb(94, 83, 83);
+    font-size: 15px;
+}
+
+.agents div  div.slider div .character-info p{
+    color: black;
+    font-size: 18px;
+}
+
+.agents div  div.slider div.active{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+/* system requirement */
+.SR-title{
+    color: white;
+    display: flex;
+    position: relative;
+    padding-top: 10%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.SR-content{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./../image/36-360036_cyber-background-hd-cyberspace-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.layer2::before{
+    margin-top: 70px;
+    content: '';
+    height: 75%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    position: absolute;
+    opacity: 50%;
+}
+
+.SR-content .PC-requirement
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.SR-content .PC-requirement div
+{
+    position: relative;
+    padding: 30px 50px;
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+
+}
+
+.SR-content .specs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 45px;
+}
+
+.SR-content .specs .col
+{
+    width: 250px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SR-content .specs .col div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+    margin: 2px;
+}
+
+.col .up{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* preRegister */
+
+.content .f{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.-preRegister{
+    height: 100vh;
+}
+
+form{
+    background-color: white;
+    max-width: 400px;
+    margin-top: 60px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3
+{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+form .form{
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    padding: 12px;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 3px;
+}
+
+.form{
+    margin-bottom: 20px;
+}
+
+#error, #error2, #error3, #error4, #error5, #error6
+{
+    margin-left: 5px;
+    margin-top: 1px;
+    color: red;
+    font-size: 14px;
+}
+
+.date{
+    margin-bottom: 10px;
+}
+
+.nationality{
+    margin-bottom: 10px;
+}
+
+select{
+    width: 150px;
+}
+
+@media only screen and (max-width: 800px){
+    .up-w{
+        flex-direction: row;
+    }
+
+    .header{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .menu{
+        display: flex;
+        padding: 25px 15px;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar-nav{
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar-nav div{
+        display: flex;
+        padding: 0px;
+        margin: 30px 0px;
+        width: 100px;
+        height: 15px;
+        border: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .content{
+        position: relative;
+    }
+
+    .content .upper{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./../image/Background.png);
+    }
+    
+    .upper .description{
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .upper .logo img{
+        height: 40px;
+    }
+    
+    .upper .button{
+        margin-top: 20px;
+    }
+    
+    .upper .button button{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 10px;
+        border-radius: 10px;
+        background-color: transparent;
+        padding: 12px 70px;
+        cursor: pointer;
+        border: 2px solid rgb(231, 91, 91);
+        outline: none;
+    }
+
+    .center{
+        padding: 10px 0px;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .center .left{
+        padding: 50px 20px 0px 20px;
+        flex-basis: 100%;
+    }
+    
+    .center .left .c-description{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .center .right{
+        flex-basis: 100%;
+    }
+    
+    .center .right img{
+        height: 200px;
+    }
+
+    .agent{
+        padding: 40px 30px;
+        height: 45vh;
+    }
+    
+    .agent .a-content .title{
+        color: rgb(172, 110, 110);
+        font-size: 75px;
+    }
+    
+    .agent .a-content .description{
+        max-width: 40%;
+        font-size: 100%;
+        font-weight: 500;
+    }
+    
+    .map{
+        padding: 40px 0px;
+    }
+    
+    .map .left{
+        flex-basis: 40%;
+    }
+    
+    .map .right{
+        padding: 40px;
+        flex-basis: 60%;
+    }
+    
+    .map-title{
+        margin-right: 30px;
+    }
+    
+    .map-description{
+        max-width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .footer{
+        height: 20vh;
+    }
+    
+    .footer .copy-right{
+        font-size: 15px;
+    }
+    
+    .footer .contact{
+        text-align: center;
+    }
+    
+    .footer .contact img{
+        height: 30px;
+    }
+
+    /* MAPS */
+    .-maps{
+        height: 100vh;
+    }
+
+    .maps{
+        background-color: black;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maps div{
+        height: 100%;
+        width: 100%;
+        margin: 0px 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps h1{
+        margin: 30px;
+        display:flex;
+        align-items:flex-start;
+        top: 60px;
+        left: 60px;
+        color: white;
+    }
+
+    .maps div .slider{
+        width: 100%;
+        flex-basis: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .maps div .slider .x{
+        display: none;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maps div .slider .x img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .maps div .slider .x .maps-info{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .maps div .slider .x .maps-info h1{
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .maps div .slider .x .maps-info p{
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .maps div .slider .x.active{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Agents */
+    .-agent{
+        height: 160vh;
+    }
+
+
+    .agents{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .agents div{
+        height: 100%;
+        width: 100%;
+        margin: 0px 0px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .agents h1{
+        font-size: 100px;
+        margin:  30px 0px 0px 0px;
+        display:flex;
+        align-items:flex-start;
+        color: white;
+    }
+
+    .agents div  div.slider{
+        width: 70%;
+    }
+
+    .agents div  div.slider div{
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+
+    .agents div  div.slider div img{
+        width: 100%;
+    }
+
+    .agents div  div.slider div .character-info{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: black;
+        background-color:transparent;
+    }
+
+    .agents div  div.slider div .character-info h1{
+        color: black;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+
+    .agents div  div.slider div .character-info p{
+        color: black;
+        font-size: 18px;
+    }
+
+    .agents div  div.slider div.active{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+
+    /* system requirement */
+
+    .SR-content{
+        width: 100%;
+        height: 180vh;
+    }
+
+    .SR-content .PC-requirement
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .SR-content .PC-requirement div
+    {
+        position: relative;
+        padding: 20px 30px;
+        font-size: 17px;
+    }
+
+    .SR-content .specs
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SR-content .specs .col
+    {
+        margin: 50px 0px;
+    }
+
+    .col .up{
+        padding: 15px 0px;
+    }
+
+    
+}
