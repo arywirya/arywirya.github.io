@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Register</title>
+    <script defer src="./../JS/code.js"></script>
+    <link rel="stylesheet" href="./../CSS/component.css">
+</head>
+<body>
+    <div class="up-w">
+        <div class="header">
+            <div class="logo"><a href="./../HTML/home.html"><img src="./../image/logo.png" alt=""></a></div>
+        </div>
+        <div class="navbar">
+            <div class="menu-btn" onclick="showMenu()">
+                <div class="menu">
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                    <div class="rectangle"></div>
+                </div>
+            </div>
+            <div class="navbar-nav" id="navbar-nav">
+                <a href="./../HTML/index.html"><div>HOME</div></a>
+                <a href="./../HTML/maps.html"><div>MAPS</div></a>
+                <a href="./../HTML/agents.html"><div>AGENTS</div></a>
+                <a href="./../HTML/systemRequirement.html"><div>SYSTEM REQUIREMENTS</div></a>
+                <a href="./../HTML/preRegister.html"><div>PRE-REGISTER</div></a>
+            </div>
+        </div>
+    </div>
+    <div class="content -preRegister">
+        <div class="f">
+            <form id="form">
+                <h3>Pre-Register</h3>
+                <div class="form">
+                    <input type="text" id="name" name="name" placeholder="Username">
+                    <div id="error"></div>
+                </div>
+                <div class="form">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <div id="error2"></div>
+                </div>
+                <div class="form">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <div id="error3"></div>
+                </div>
+                <div class="date">
+                    <label for="date">Date of birth</label>
+                    <input type="date" name="date" id="date">
+                    <div id="error4"></div>
+                </div>
+                <div class="nationality">
+                    <label for="nationality">Select your nationality</label>
+                    <select name="nationality" id="nationality">
+                        <option value=""></option>
+                        <option value="Afghan">Afghan</option>
+                        <option value="Albanian">Albanian</option>
+                        <option value="Algerian">Algerian</option>
+                        <option value="Argentine">Argentine</option>
+                        <option value="Australian">Australian</option>
+                        <option value="Bangladeshi">Bangladeshi</option>
+                        <option value="Belgian">Belgian</option>
+                        <option value="Bolivian">Bolivian</option>
+                        <option value="Batswana">Batswana</option>
+                        <option value="Brazilian">Brazilian</option>
+                        <option value="Bulgarian">Bulgarian</option>
+                        <option value="Cambodian">Cambodian</option>
+                        <option value="Cameroonian">Cameroonian</option>
+                        <option value="Canadian">Canadian</option>
+                        <option value="Chilean">Chilean</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="Colombian">Colombian</option>
+                        <option value="Costa Rican">Costa Rican</option>
+                        <option value="Croatian">Croatian</option>
+                        <option value="Cuban">Cuban</option>
+                        <option value="Czech">Czech</option>
+                        <option value="Danish">Danish</option>
+                        <option value="Dominican">Dominican</option>
+                        <option value="Ecuadorian">Ecuadorian</option>
+                        <option value="Egyptian">Egyptian</option>
+                        <option value="Salvadorian">Salvadorian</option>
+                        <option value="English">English</option>
+                        <option value="Estonian">Estonian</option>
+                        <option value="Ethiopian">Ethiopian</option>
+                        <option value="Fijian">Fijian</option>
+                        <option value="Finnish">Finnish</option>
+                        <option value="French">French</option>
+                        <option value="German">German</option>
+                        <option value="Ghanaian">Ghanaian</option>
+                        <option value="Greek">Greek</option>
+                        <option value="Guatemalan">Guatemalan</option>
+                        <option value="Haitian">Haitian</option>
+                        <option value="Honduran">Honduran</option>
+                        <option value="Hungarian">Hungarian</option>
+                        <option value="Icelandic">Icelandic</option>
+                        <option value="Indian">Indian</option>
+                        <option value="Indonesian">Indonesia</option>
+                        <option value="Iranian">Iranian</option>
+                        <option value="Iraqi">Iraqi</option>
+                        <option value="Irish">Irish</option>
+                        <option value="Israeli">Israeli</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Jamaican">Jamaican</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Jordanian">Jordanian</option>
+                        <option value="Kenyan">Kenyan</option>
+                        <option value="Kuwaiti">Kuwaiti</option>
+                        <option value="Lao">Lao</option>
+                        <option value="Latvian">Latvian</option>
+                        <option value="Lebanese">Lebanese</option>
+                        <option value="Libyan">Libyan</option>
+                        <option value="Lithuanian">Lithuanian</option>
+                        <option value="Malagasy">Malagasy</option>
+                        <option value="Malaysian">Malaysian</option>
+                        <option value="Malian">Malian</option>
+                        <option value="Maltese">Maltese</option>
+                        <option value="Mexican">Mexican</option>
+                        <option value="Mongolian">Mongolian</option>
+                        <option value="Moroccan">Moroccan</option>
+                        <option value="Mozambican">Mozambican</option>
+                        <option value="Namibian">Namibian</option>
+                        <option value="Nepalese">Nepalese</option>
+                        <option value="Dutch">Dutch</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Nicaraguan">Nicaraguan</option>
+                        <option value="Nigerian">Nigerian</option>
+                        <option value="Norwegian">Norwegian</option>
+                        <option value="Pakistani">Pakistani</option>
+                        <option value="Panamanian">Panamanian</option>
+                        <option value="Paraguayan">Paraguayan</option>
+                        <option value="Peruvian">Peruvian</option>
+                        <option value="Philippine">Philippine</option>
+                        <option value="Polish">Polish</option>
+                        <option value="Portugese">Portugese</option>
+                        <option value="Romanian">Romanian</option>
+                        <option value="Russian">Russian</option>
+                        <option value="Saudi">Saudi</option>
+                        <option value="Scottish">Scottish</option>
+                        <option value="Senegalese">Senegalese</option>
+                        <option value="Serbian">Serbian</option>
+                        <option value="Singaporean">Singaporean</option>
+                        <option value="Slovak">Slovak</option>
+                        <option value="South African">South African</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Sri Langka">Sri Langka</option>
+                        <option value="Sudanese">Sudanese</option>
+                        <option value="Swedish">Swedish</option>
+                        <option value="Swiss">Swiss</option>
+                        <option value="Syrian">Syrian</option>
+                        <option value="Taiwanese">Taiwanese</option>
+                        <option value="Tajikistani">Tajikistani</option>
+                        <option value="Thai">Thai</option>
+                        <option value="Tongan">Tongan</option>
+                        <option value="Tunisian">Tunisian</option>
+                        <option value="Turkish">Turkish</option>
+                        <option value="Ukrainian">Ukrainian</option>
+                        <option value="Emirati">Emirati</option>
+                        <option value="British">British</option>
+                        <option value="American">American</option>
+                        <option value="Uruguayan">Uruguayan</option>
+                        <option value="Venezuelan">Venezuelan</option>
+                        <option value="Vietnamese">Vietnamese</option>
+                        <option value="Welsh">Welsh</option>
+                        <option value="Zambian">Zambian</option>
+                        <option value="Zimbabwean">Zimbabwean</option>
+                    </select>
+                    <div id="error5"></div>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">I agree with terms and conditions</label>
+                    <div id="error6"></div>
+                </div>
+                <button class="common-btn" type="submit" onclick="validate()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copy-right">
+            ©2021 by Inc. LaVorant.
+        </div>
+        <div class="contact">
+            <a href=""><img src="./../image/instagram.png" alt=""></a>
+            <a href=""><img src="./../image/facebook.png" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>
